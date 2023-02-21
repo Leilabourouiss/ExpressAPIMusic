@@ -1,0 +1,34 @@
+1er étape:Création de l'arborésence
+___________________________________
+.env et .env.example
+
+créer l'architecture de base
+-----------------------------
+nomProjet
+    ├──controllers/
+    ├──dto/
+    ├──Middlewares/
+    ├──models/
+    ├──routes/
+    ├──services/
+    ├──.env
+    ├──gitignore
+    ├──app.js
+    ├──package-lock.json
+    ├──package.json
+
+2e étape app.js
+___________________________________
+ // configuration des variables d'environnement
+// Import d'express
+    // il faut importer le middleware pour qu'il fonctionne dans le porjet 
+// Import di middleware express async errors
+// création du serveur
+// Connection à la db 
+    // Synchro db
+
+    // Middleware app-lvl
+
+    // Router
+
+    // Ecoute serveur
